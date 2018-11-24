@@ -8,12 +8,17 @@ Grab an binary executable for your OS from [Releases](https://github.com/peteret
 
 Or, if you have Go:
 ```
-go get github.com/peteretelej/vpn-timer
+git clone https://github.com/peteretelej/vpn-timer.git
+
+cd vpn-timer
+
+go install
 ```
 
 
 
-## Use
+## Usage
+Run `vpn-timer` while specifying the VPN IP (see [ifconfig.co](https://ifconfig.co), and **_optionally_** you can specify the time _limit_ you want eg `10m`,`1h`,`2h30m` (default `30m`)
 ```
 vpn-timer -ip 123.45.67.89 
 # specify the VPN public IP so that it can be monitored
