@@ -17,12 +17,12 @@ const checkInterval = time.Minute * 5
 
 func main() {
 	var (
-		vpnIP = flag.String("vpn", "", "the VPN public IP address, see https://ifconfig.co")
+		vpnIP = flag.String("ip", "", "the VPN public IP address, see https://ifconfig.co")
 		limit = flag.Duration("limit", time.Minute*30, "time limit before notifications start")
 	)
 	flag.Parse()
 	if *vpnIP == "" {
-		fmt.Println("missing -vpn flag, you must specify VPN IP, see --help")
+		fmt.Println("missing -ip flag, you must specify VPN IP, see --help")
 		os.Exit(2)
 	}
 	for {
