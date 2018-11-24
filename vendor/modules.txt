@@ -1,0 +1,15 @@
+# github.com/gen2brain/beeep v0.0.0-20180718162406-4e430518395f
+github.com/gen2brain/beeep
+# github.com/godbus/dbus v4.1.0+incompatible
+github.com/godbus/dbus
+# github.com/gopherjs/gopherjs v0.0.0-20180825215210-0210a2f0f73c
+github.com/gopherjs/gopherjs/js
+# github.com/gopherjs/gopherwasm v1.0.1
+github.com/gopherjs/gopherwasm/js
+# github.com/nu7hatch/gouuid v0.0.0-20131221200532-179d4d0c4d8d
+github.com/nu7hatch/gouuid
+# golang.org/x/sys v0.0.0-20181122145206-62eef0e2fa9b
+golang.org/x/sys/windows/registry
+golang.org/x/sys/windows
+# gopkg.in/toast.v1 v1.0.0-20180812000517-0a84660828b2
+gopkg.in/toast.v1
