@@ -4,9 +4,14 @@ Alerts you when you're on VPN for too long.
 
 
 ## Install
+Grab an binary executable for your OS from [Releases](https://github.com/peteretelej/vpn-timer/releases)
+
+Or, if you have Go:
 ```
 go get github.com/peteretelej/vpn-timer
 ```
+
+
 
 ## Use
 ```
