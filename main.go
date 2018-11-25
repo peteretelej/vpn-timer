@@ -44,7 +44,7 @@ func checkIP(timeLimit time.Duration, vpnIP string) error {
 		return err
 	}
 	cl := &http.Client{
-		Timeout: time.Second * 2,
+		Timeout: time.Second * 10,
 	}
 	resp, err := cl.Do(req)
 	if err != nil {
