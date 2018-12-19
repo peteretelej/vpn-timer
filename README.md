@@ -1,4 +1,6 @@
 # vpn-timer
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpeteretelej%2Fvpn-timer.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpeteretelej%2Fvpn-timer?ref=badge_shield)
+
 
 Alerts you when you're on VPN for too long. 
 
@@ -27,3 +29,7 @@ vpn-timer -ip 123.45.67.89
 vpn-timer -ip 123.45.67.89 -limit 1h
 # send notifications after an hour
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpeteretelej%2Fvpn-timer.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpeteretelej%2Fvpn-timer?ref=badge_large)
